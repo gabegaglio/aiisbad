@@ -1,9 +1,9 @@
-import Wizard from "./components/Wizard.tsx";
-import Archer from "./components/Archer.tsx";
-import CharacterCreation from "./components/CharacterCreation.tsx";
-import JazzSong from "./components/JazzSong.tsx";
-import Einstein from "./components/Einstein.tsx";
-import PromptSection from "./components/PromptSection.tsx";
+import Wizard from "./components/Wizard";
+import Archer from "./components/Archer";
+import CharacterCreation from "./components/CharacterCreation";
+import JazzSong from "./components/JazzSong";
+import Einstein from "./components/Einstein";
+import PromptSection from "./components/PromptSection";
 
 function App() {
   return (

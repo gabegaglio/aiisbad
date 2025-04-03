@@ -37,7 +37,7 @@ const JazzSong: React.FC = () => {
                 d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            Listen to Jazz Song on Mureka.ai
+            Listen on Mureka.ai
           </a>
         </div>
       </div>
