@@ -7,7 +7,8 @@ const PromptSection: React.FC = () => {
         <h2 className="text-3xl font-bold mb-4">Original Prompt</h2>
         <div className="p-6 bg-black rounded-lg text-gray-300 font-mono text-sm whitespace-pre-wrap">
           First, create a project with vite, react, typescript, and tailwindcss.
-          I will first provide you with 4 images, make sure each image goes with the prompt I will provide you with. 
+          I will first provide you with 4 images, make sure each image goes with
+          the prompt I will provide you with.
           <br></br>
           <br></br>
           Wizard: <br></br>Prompt: Create a detailed pixel art frame animation
@@ -20,7 +21,10 @@ const PromptSection: React.FC = () => {
           achieve a high level of fluidity and detail in the animation.{" "}
           <br></br>
           Source: <br></br>
-          <a href="https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/">
+          <a
+            className="text-blue-400 hover:text-blue-300 break-words inline-block max-w-full"
+            href="https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/"
+          >
             https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/
           </a>
           <br></br>
@@ -50,11 +54,12 @@ const PromptSection: React.FC = () => {
           on the link to bring the user to the website, make the website
           background black with a white monoblock font, like the Chicago
           typeface, for the beginning of the site make it fill the entire screen
-          and say "AI isn't so great" and underneath say "Collection of fields AI is destroying", then create sections for the gaming images
-          and the art images for einstein and the jazz song, at the end create a
-          section that pastes this prompt in to show the user what the prompt
-          was to create the website now create a final section, that pastes this
-          text into it.
+          and say "AI isn't so great" and underneath say "Collection of fields
+          AI is destroying", then create sections for the gaming images and the
+          art images for einstein and the jazz song, at the end create a section
+          that pastes this prompt in to show the user what the prompt was to
+          create the website now create a final section, that pastes this text
+          into it.
         </div>
       </div>
     </div>

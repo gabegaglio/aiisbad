@@ -16,7 +16,7 @@ const Einstein: React.FC = () => {
             <img
               src={einstein}
               alt="Einstein Photo to Animation Comparison"
-              className="w-1/2 max-w-4xl object-contain"
+              className="w-3/4 md:w-1/2 max-w-4xl object-contain"
             />
           </div>
         </div>

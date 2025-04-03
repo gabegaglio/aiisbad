@@ -16,7 +16,7 @@ const CharacterCreation: React.FC = () => {
             <img
               src={threeDModel}
               alt="3D Character Creation Example"
-              className="w-1/2 max-w-4xl object-contain"
+              className="w-3/4 md:w-1/2 max-w-4xl object-contain"
             />
           </div>
         </div>

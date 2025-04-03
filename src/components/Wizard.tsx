@@ -21,7 +21,10 @@ const Wizard: React.FC = () => {
           level of fluidity and detail in the animation.
           <br />
           Source: <br />
-          <a href="https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/">
+          <a
+            href="https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/"
+            className="text-blue-400 hover:text-blue-300 break-words inline-block max-w-full"
+          >
             https://www.reddit.com/r/aigamedev/comments/1jkthal/ai_animation_gpt4o/
           </a>
         </p>
@@ -30,7 +33,7 @@ const Wizard: React.FC = () => {
             <img
               src={wizard}
               alt="Wizard Animation Frames"
-              className="w-1/2 max-w-4xl object-contain"
+              className="w-3/4 md:w-1/2 max-w-4xl object-contain"
             />
           </div>
         </div>

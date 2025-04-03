@@ -16,14 +16,14 @@ const Archer: React.FC = () => {
           archer pulling the street, and finally capture the moment of letting
           go of the string. ensure the keyframes transition smoothly and
           continuously, and include as many frames as possible to achieve a high
-          level of fluidity and detail in the animation
+          level of fluidity and detail in the animation.
         </p>
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
               src={archer}
               alt="Archer Animation Frames"
-              className="w-1/2 max-w-4xl object-contain"
+              className="w-3/4 md:w-1/2 max-w-4xl object-contain"
             />
           </div>
         </div>
