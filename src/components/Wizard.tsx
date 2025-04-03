@@ -26,7 +26,7 @@ const Wizard: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="./src/assets/images/wizard.png"
+              src="src/assets/images/wizard.png"
               alt="Wizard Animation Frames"
               className="w-1/2 max-w-4xl object-contain"
             />

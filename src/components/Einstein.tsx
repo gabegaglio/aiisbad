@@ -13,7 +13,7 @@ const Einstein: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="./src/assets/images/einstein.jpeg"
+              src="src/assets/images/einstein.jpeg"
               alt="Einstein Photo to Animation Comparison"
               className="w-1/2 max-w-4xl object-contain"
             />

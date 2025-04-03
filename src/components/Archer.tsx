@@ -19,7 +19,7 @@ const Archer: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="./src/assets/images/archer.png"
+              src="src/assets/images/archer.png"
               alt="Archer Animation Frames"
               className="w-1/2 max-w-4xl object-contain"
             />

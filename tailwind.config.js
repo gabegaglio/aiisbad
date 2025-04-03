@@ -8,5 +8,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
+  safelist: ["bg-gray-800", "bg-gray-900", "text-white", "text-gray-300"],
 };

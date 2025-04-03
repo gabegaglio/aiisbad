@@ -14,7 +14,7 @@ const CharacterCreation: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="./src/assets/images/3dmodel.jpg"
+              src="src/assets/images/3dmodel.jpg"
               alt="3D Character Creation Example"
               className="w-1/2 max-w-4xl object-contain"
             />
