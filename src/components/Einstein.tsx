@@ -9,7 +9,7 @@ const Einstein: React.FC = () => {
         <p className="mb-6 text-gray-300 font-mono">
           Prompt: <br></br>
           Given the picture of the individuals depicted, transform the photo
-          into Studio Ghibli style
+          into Studio Ghibli style.
         </p>
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
