@@ -6,8 +6,8 @@ const Archer: React.FC = () => {
   return (
     <div className="py-8 bg-gray-800 text-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Archer</h2>
-        <p className="mb-6 text-gray-300">
+        <h2 className="text-3xl font-bold font-mono mb-4">Archer</h2>
+        <p className="mb-6 text-gray-300 font-mono">
           Prompt: <br></br>
           Create a detailed pixel art frame animation for a game where the final
           image is divided into multiple sub-images, each serving as a

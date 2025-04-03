@@ -6,10 +6,10 @@ const Wizard: React.FC = () => {
   return (
     <div className="py-8 bg-gray-900 text-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-3xl font-bold mb-4 font-mono">
           2D Character Creation/Animation
         </h2>
-        <p className="mb-6 text-gray-300">
+        <p className="mb-6 text-gray-300 font-mono">
           Prompt: <br />
           Create a detailed pixel art frame animation for a game where the final
           image is divided into multiple sub-images, each serving as a

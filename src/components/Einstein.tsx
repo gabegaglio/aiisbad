@@ -5,8 +5,8 @@ const Einstein: React.FC = () => {
   return (
     <div className="py-8 bg-gray-800 text-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Art Style Recreation</h2>
-        <p className="mb-6 text-gray-300">
+        <h2 className="text-3xl font-bold mb-4 font-mono">Art Style Recreation</h2>
+        <p className="mb-6 text-gray-300 font-mono">
           Prompt: <br></br>
           Given the picture of the individuals depicted, transform the photo
           into Studio Ghibli style

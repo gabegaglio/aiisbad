@@ -8,7 +8,7 @@ const JazzSong: React.FC = () => {
         <p className="mb-6 text-gray-300 font-mono">
           Prompt: <br></br>
           Relaxed Jazzlounge with smooth saxophone, great for city tours and
-          coffee shop scenes
+          coffee shop scenes.
         </p>
         <div className="mb-6 p-6 border border-gray-700 rounded-lg flex justify-center">
           <a
