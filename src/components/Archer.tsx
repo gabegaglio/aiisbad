@@ -1,5 +1,7 @@
 import React from "react";
 
+import archer from "../assets/images/archer.png";
+
 const Archer: React.FC = () => {
   return (
     <div className="py-8 bg-gray-800 text-white">
@@ -19,7 +21,7 @@ const Archer: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="src/assets/images/archer.png"
+              src={archer}
               alt="Archer Animation Frames"
               className="w-1/2 max-w-4xl object-contain"
             />

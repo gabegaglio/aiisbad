@@ -1,4 +1,5 @@
 import React from "react";
+import einstein from "../assets/images/einstein.jpeg";
 
 const Einstein: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const Einstein: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="src/assets/images/einstein.jpeg"
+              src={einstein}
               alt="Einstein Photo to Animation Comparison"
               className="w-1/2 max-w-4xl object-contain"
             />

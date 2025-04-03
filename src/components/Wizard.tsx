@@ -1,5 +1,7 @@
 import React from "react";
 
+import wizard from "../assets/images/wizard.png";
+
 const Wizard: React.FC = () => {
   return (
     <div className="py-8 bg-gray-900 text-white">
@@ -26,7 +28,7 @@ const Wizard: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="src/assets/images/wizard.png"
+              src={wizard}
               alt="Wizard Animation Frames"
               className="w-1/2 max-w-4xl object-contain"
             />

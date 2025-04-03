@@ -1,5 +1,5 @@
 import React from "react";
-
+import threeDModel from "../assets/images/3dmodel.jpg";
 const CharacterCreation: React.FC = () => {
   return (
     <div className="py-8 bg-gray-900 text-white">
@@ -14,7 +14,7 @@ const CharacterCreation: React.FC = () => {
         <div className="bg-black p-4 rounded-lg">
           <div className="flex justify-center items-center">
             <img
-              src="src/assets/images/3dmodel.jpg"
+              src={threeDModel}
               alt="3D Character Creation Example"
               className="w-1/2 max-w-4xl object-contain"
             />
