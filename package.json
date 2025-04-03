@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://gabegaglio.github.io/aiisbad/",
+  "homepage": "http://gabegaglio.github.io/aiisbad",
   "dependencies": {
     "-": "^0.0.1",
     "@tailwindcss/vite": "^4.1.1",
